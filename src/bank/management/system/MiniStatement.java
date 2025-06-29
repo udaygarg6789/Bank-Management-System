@@ -36,7 +36,7 @@ public class MiniStatement extends JFrame implements ActionListener {
         add(label4);
 
         try{
-            con constatement = new con();
+            Connn constatement = new Connn();
             ResultSet resultSet = constatement.statement.executeQuery("select * from login where PIN = '"+pincode+"'");
             while (resultSet.next()){
                 label3.setText("Card Number:  "+ resultSet.getString("card_number").substring(0,4) + "-XXXX-XXXX-"+ resultSet.getString("card_number").substring(12));
@@ -47,7 +47,7 @@ public class MiniStatement extends JFrame implements ActionListener {
 
         try{
             int balance =0;
-            con c = new con();
+            Connn c = new Connn();
             ResultSet resultSet = c.statement.executeQuery("select * from bank where PIN = '"+pincode+"'");
             while (resultSet.next()){
 

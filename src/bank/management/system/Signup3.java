@@ -244,7 +244,7 @@ public class Signup3 extends JFrame implements ActionListener {
                     JOptionPane.showMessageDialog(null,"Please select the account type");
                 }
                 else{
-                    con con3 = new con();
+                    Connn con3 = new Connn();
                     String r = "insert into signup3 values ('"+formno+"', '"+actype+"', '"+cdno+"', '"+pno+"', '"+demands+"')";
                     String s = "insert into login values ('"+formno+"', '"+cdno+"', '"+pno+"') ";
                     con3.statement.executeUpdate(r);
@@ -258,7 +258,7 @@ public class Signup3 extends JFrame implements ActionListener {
             }
             else if(e.getSource() == c){
                 try{
-                    con con3 = new con();
+                    Connn con3 = new Connn();
                     String deletesignup = "delete from signup where form_no = '"+formno+"'";
                     String deletesignup2 = "delete from signup2 where form_no = '"+formno+"'";
                     String deletesignup3 = "delete from signup3 where form_no = '"+formno+"'";

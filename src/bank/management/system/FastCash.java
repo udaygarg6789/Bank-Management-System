@@ -101,7 +101,7 @@ public class FastCash extends JFrame implements ActionListener {
             new main_bank(pincode);
         }else {
             String amount = ((JButton)e.getSource()).getText().substring(3).replace(",", "").trim();
-            con fccon = new con();
+            Connn fccon = new Connn();
             Date date = new Date();
             try{
                 ResultSet resultSet = fccon.statement.executeQuery("select * from bank where pin = '"+pincode+"'");

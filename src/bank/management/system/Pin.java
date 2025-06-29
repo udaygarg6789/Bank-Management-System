@@ -99,7 +99,7 @@ public class Pin extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null,"Entered PIN Does Not match");
                 return;
             }
-            con conpin = new con();
+            Connn conpin = new Connn();
             String q1 = "update bank set PIN = '"+pin1+"' where PIN ='"+pincode+"' ";
             String q2 = "update login set PIN = '"+pin1+"' where PIN ='"+pincode+"' ";
             String q3 = "update signup set pincode = '"+pin1+"' where pincode ='"+pincode+"' ";

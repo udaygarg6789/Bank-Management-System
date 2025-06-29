@@ -135,7 +135,7 @@ public class Login extends JFrame implements ActionListener {
         String pincode = passwordfield3.getText();
         try {
             if(e.getSource() == button1){
-                con maincon = new con();
+                Connn maincon = new Connn();
                 String entry = "select * from login where card_number = '"+cardnumber+"' and PIN = '"+pincode+"' ";
                 ResultSet re = maincon.statement.executeQuery(entry);
                 if(re.next()){

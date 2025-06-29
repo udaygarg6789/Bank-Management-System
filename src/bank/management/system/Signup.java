@@ -209,7 +209,7 @@ public class Signup extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "PIN Code must be exactly 4 digits (numbers only)");
             }
             else{
-                con con1 = new con();
+                Connn con1 = new Connn();
                 String q = "insert into signup values('"+formno+"', '"+name+"', '"+fname+"', '"+dob+"', '"+gender+"', '"+email+"', '"+maritalstatus+"', '"+address+"', '"+city+"', '"+PIN+"', '"+state+"')";
                 con1.statement.executeUpdate(q);
                 new Signup2(first, PIN);

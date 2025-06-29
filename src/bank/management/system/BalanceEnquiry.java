@@ -53,7 +53,7 @@ public class BalanceEnquiry extends JFrame implements ActionListener {
 
         int balance = 0;
         try{
-            con conamount = new con();
+            Connn conamount = new Connn();
             ResultSet result = conamount.statement.executeQuery("select * from bank where PIN ='"+pincode+"' ");
 
             while(result.next()){

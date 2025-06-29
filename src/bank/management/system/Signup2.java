@@ -198,7 +198,7 @@ public class Signup2 extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(null, "Please enter your Aadhar Number");
             }
             else{
-                con con2 = new con();
+                Connn con2 = new Connn();
                 String p = "insert into signup2 values ('"+formno+"', '"+rel+"', '"+cate+"', '"+inc+"', '"+edu+"', '"+occu+"', '"+pan+"', '"+aad+"', '"+seniorcity+"', '"+existingac+"')";
                 con2.statement.executeUpdate(p);
                 new Signup3(formno, pinno);
