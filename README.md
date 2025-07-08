@@ -41,11 +41,39 @@ Final Page to fill out the details such as account type, services required. An a
 ### 🧾 New Account Details for login
 ![Details Page](screenshots/ss7.png)
 
-### 🧾 Signup Page 2
-![Signup Page2](screenshots/ss.png)
+### 🧾 Your New generated Card Number and PIN will be stored in the backend
+![Signup Page2](screenshots/s8.png)
 
-### 🧾 Signup Page 2
-![Signup Page2](screenshots/ss5.png)
+### 🧾 You may enter your details to login to your account
+![Signup Page2](screenshots/ss9.png)
+
+### 🧾 Welcome to your Bank 
+![Signup Page2](screenshots/ss10.png)
+
+### 🧾 By clicking on Deposit button You will be redirected to this page here you can deposit your amount
+![Signup Page2](screenshots/ss11.png)
+![Signup Page2](screenshots/ss12.png)
+
+### 🧾 Go to Withdraw button to withdraw money from your account 
+![Signup Page2](screenshots/ss13.png)
+### Note:- Your Amount should not Exceed the account balance else you will see an error {insufficient balance}
+
+### 🧾 Fast Cash to withdraw quick ammount 
+![Signup Page2](screenshots/ss15.png)
+
+### 🧾 User can check their balance by going to Balance Enquiry
+![Signup Page2](screenshots/ss16.png)
+
+### 🧾 User can Change their PIN any time by going to Change PIN Option
+![Signup Page2](screenshots/ss17.png)
+### Note:- Make sure to enter and re-enter correct so you won't get error {PIN does not match}
+
+### 🧾 PIN will also be then changed in the database so user can use this new PIN to Login next time
+![Signup Page2](screenshots/ss18.png)
+
+### 🧾 User can generate MINI Statements of all the previous transaction history and time.
+![Signup Page2](screenshots/ss21.png)
+
 
 
 
